@@ -6,7 +6,6 @@ import pytest
 
 from operations_scientific import ceil, cos, floor, power, sin, square_root
 
-
 class TestSinCos:
     def test_sin_zero(self):
         assert sin(0) == pytest.approx(0.0)
